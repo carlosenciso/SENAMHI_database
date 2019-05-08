@@ -3,7 +3,7 @@
 # @Date:   2019-04-29T19:11:44-05:00
 # @Email:  carlos.enciso.o@gmail.com
 # @Last modified by:   carlos
-# @Last modified time: 2019-05-08T13:21:15-05:00
+# @Last modified time: 2019-05-08T13:26:25-05:00
 # @License: Peruvian Geophysical Institute
 # @Copyright: MIT
 #-----------------------------------
@@ -19,6 +19,10 @@ import geopandas as gpd
 class Areac:
     def __init__(self, area):
         self.area = area
+
+class Perimeterc:
+    def __init__(self, csize):
+        self.perimeter = csize**2
 #-----------------------------------
 # Creating Classes
 #-----------------------------------
