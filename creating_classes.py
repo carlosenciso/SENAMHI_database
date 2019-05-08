@@ -3,7 +3,7 @@
 # @Date:   2019-04-29T19:11:44-05:00
 # @Email:  carlos.enciso.o@gmail.com
 # @Last modified by:   carlos
-# @Last modified time: 2019-05-08T12:14:12-05:00
+# @Last modified time: 2019-05-08T12:31:00-05:00
 # @License: Peruvian Geophysical Institute
 # @Copyright: MIT
 #-----------------------------------
@@ -13,7 +13,11 @@ import datetime
 import numpy as np
 import pandas as pd
 import xarray as xr
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+
+class Areac:
+    def __init__(self, area):
+        self.area = area
 #-----------------------------------
 # Creating Classes
 #-----------------------------------
