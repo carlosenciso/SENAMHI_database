@@ -3,7 +3,7 @@
 # @Date:   2019-04-29T19:11:44-05:00
 # @Email:  carlos.enciso.o@gmail.com
 # @Last modified by:   carlos
-# @Last modified time: 2019-05-08T16:47:49-05:00
+# @Last modified time: 2019-05-08T18:24:01-05:00
 # @License: Peruvian Geophysical Institute
 # @Copyright: MIT
 #-----------------------------------
@@ -17,7 +17,9 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import cartopy.crs as ccrs
 import seaborn as sns
-
+#-----------------------------------
+# New class
+#-----------------------------------
 class Areac:
     def __init__(self, area):
         self.area = area
