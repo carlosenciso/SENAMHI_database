@@ -3,13 +3,16 @@
 # @Date:   2019-04-29T19:11:44-05:00
 # @Email:  carlos.enciso.o@gmail.com
 # @Last modified by:   carlos
-# @Last modified time: 2019-05-08T11:36:08-05:00
+# @Last modified time: 2019-05-08T12:07:51-05:00
 # @License: Peruvian Geophysical Institute
 # @Copyright: MIT
 #-----------------------------------
 # Importing modules
 #-----------------------------------
 import datetime
+import numpy as np
+import pandas as pd
+import xarray as xr 
 #-----------------------------------
 # Creating Classes
 #-----------------------------------
